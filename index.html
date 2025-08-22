@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Disney Personality Match</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="s.css">
+        
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-crown"></i>
+            </div>
+            <h1>Disney Personality Match</h1>
+            <p>Discover which Disney character shares your personality traits with! (For Fun)</p>
+        </header>
+
+        <div class="quiz-container">
+            <div class="tabs">
+                <div class="tab active" data-tab="traits">Personality Traits</div>
+                <div class="tab" data-tab="values">Values & Preferences</div>
+                <div class="tab" data-tab="behavior">Behavior Patterns</div>
+            </div>
+            
+            <div class="tab-content active" id="traits-tab">
+                <div class="question">
+                    <h3>Select your core personality traits:</h3>
+                </div>
+                
+                <div class="traits-grid">
+                    <div class="trait-item" data-trait="brave" data-weight="8">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Brave</span>
+                    </div>
+                    <div class="trait-item" data-trait="kind" data-weight="7">
+                        <i class="fas fa-heart"></i>
+                        <span>Kind</span>
+                    </div>
+                    <div class="trait-item" data-trait="adventurous" data-weight="9">
+                        <i class="fas fa-mountain"></i>
+                        <span>Adventurous</span>
+                    </div>
+                    <div class="trait-item" data-trait="funny" data-weight="6">
+                        <i class="fas fa-laugh"></i>
+                        <span>Funny</span>
+                    </div>
+                    <div class="trait-item" data-trait="loyal" data-weight="8">
+                        <i class="fas fa-handshake"></i>
+                        <span>Loyal</span>
+                    </div>
+                    <div class="trait-item" data-trait="clever" data-weight="7">
+                        <i class="fas fa-brain"></i>
+                        <span>Clever</span>
+                    </div>
+                    <div class="trait-item" data-trait="curious" data-weight="6">
+                        <i class="fas fa-question-circle"></i>
+                        <span>Curious</span>
+                    </div>
+                    <div class="trait-item" data-trait="determined" data-weight="8">
+                        <i class="fas fa-fist-raised"></i>
+                        <span>Determined</span>
+                    </div>
+                    <div class="trait-item" data-trait="optimistic" data-weight="7">
+                        <i class="fas fa-sun"></i>
+                        <span>Optimistic</span>
+                    </div>
+                    <div class="trait-item" data-trait="compassionate" data-weight="9">
+                        <i class="fas fa-hands-helping"></i>
+                        <span>Compassionate</span>
+                    </div>
+                    <div class="trait-item" data-trait="wise" data-weight="8">
+                        <i class="fas fa-book"></i>
+                        <span>Wise</span>
+                    </div>
+                    <div class="trait-item" data-trait="creative" data-weight="7">
+                        <i class="fas fa-paint-brush"></i>
+                        <span>Creative</span>
+                    </div>
+                    <div class="trait-item" data-trait="energetic" data-weight="6">
+                        <i class="fas fa-bolt"></i>
+                        <span>Energetic</span>
+                    </div>
+                    <div class="trait-item" data-trait="patient" data-weight="7">
+                        <i class="fas fa-hourglass-half"></i>
+                        <span>Patient</span>
+                    </div>
+                    <div class="trait-item" data-trait="confident" data-weight="8">
+                        <i class="fas fa-star"></i>
+                        <span>Confident</span>
+                    </div>
+                    <div class="trait-item" data-trait="humble" data-weight="7">
+                        <i class="fas fa-leaf"></i>
+                        <span>Humble</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-content" id="values-tab">
+                <div class="question">
+                    <h3>What do you value most?</h3>
+                </div>
+                
+                <div class="traits-grid">
+                    <div class="trait-item" data-trait="friendship" data-weight="7">
+                        <i class="fas fa-users"></i>
+                        <span>Friendship</span>
+                    </div>
+                    <div class="trait-item" data-trait="family" data-weight="8">
+                        <i class="fas fa-home"></i>
+                        <span>Family</span>
+                    </div>
+                    <div class="trait-item" data-trait="freedom" data-weight="9">
+                        <i class="fas fa-dove"></i>
+                        <span>Freedom</span>
+                    </div>
+                    <div class="trait-item" data-trait="justice" data-weight="8">
+                        <i class="fas fa-scale-balanced"></i>
+                        <span>Justice</span>
+                    </div>
+                    <div class="trait-item" data-trait="knowledge" data-weight="7">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Knowledge</span>
+                    </div>
+                    <div class="trait-item" data-trait="adventure" data-weight="9">
+                        <i class="fas fa-map"></i>
+                        <span>Adventure</span>
+                    </div>
+                    <div class="trait-item" data-trait="honesty" data-weight="8">
+                        <i class="fas fa-star"></i>
+                        <span>Honesty</span>
+                    </div>
+                    <div class="trait-item" data-trait="success" data-weight="6">
+                        <i class="fas fa-trophy"></i>
+                        <span>Success</span>
+                    </div>
+                    <div class="trait-item" data-trait="tradition" data-weight="7">
+                        <i class="fas fa-history"></i>
+                        <span>Tradition</span>
+                    </div>
+                    <div class="trait-item" data-trait="innovation" data-weight="8">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>Innovation</span>
+                    </div>
+                    <div class="trait-item" data-trait="nature" data-weight="8">
+                        <i class="fas fa-tree"></i>
+                        <span>Nature</span>
+                    </div>
+                    <div class="trait-item" data-trait="community" data-weight="7">
+                        <i class="fas fa-globe"></i>
+                        <span>Community</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-content" id="behavior-tab">
+                <div class="question">
+                    <h3>How would you describe your behavior?</h3>
+                </div>
+                
+                <div class="slider-container">
+                    <label>Introverted <i class="fas fa-user"></i> — Extroverted <i class="fas fa-users"></i></label>
+                    <input type="range" min="1" max="10" value="5" class="slider" id="introExtroSlider">
+                    <div class="slider-labels">
+                        <span>Introverted</span>
+                        <span>Extroverted</span>
+                    </div>
+                </div>
+                
+                <div class="slider-container">
+                    <label>Logical <i class="fas fa-calculator"></i> — Creative <i class="fas fa-palette"></i></label>
+                    <input type="range" min="1" max="10" value="5" class="slider" id="logicCreativeSlider">
+                    <div class="slider-labels">
+                        <span>Logical</span>
+                        <span>Creative</span>
+                    </div>
+                </div>
+                
+                <div class="slider-container">
+                    <label>Reserved <i class="fas fa-volume-mute"></i> — Expressive <i class="fas fa-volume-up"></i></label>
+                    <input type="range" min="1" max="10" value="5" class="slider" id="reservedExpressiveSlider">
+                    <div class="slider-labels">
+                        <span>Reserved</span>
+                        <span>Expressive</span>
+                    </div>
+                </div>
+
+                <div class="slider-container">
+                    <label>Spontaneous <i class="fas fa-random"></i> — Organized <i class="fas fa-list"></i></label>
+                    <input type="range" min="1" max="10" value="5" class="slider" id="spontaneousOrganizedSlider">
+                    <div class="slider-labels">
+                        <span>Spontaneous</span>
+                        <span>Organized</span>
+                    </div>
+                </div>
+
+                <div class="slider-container">
+                    <label>Practical <i class="fas fa-wrench"></i> — Dreamer <i class="fas fa-cloud"></i></label>
+                    <input type="range" min="1" max="10" value="5" class="slider" id="practicalDreamerSlider">
+                    <div class="slider-labels">
+                        <span>Practical</span>
+                        <span>Dreamer</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="filter-section">
+                <div class="filter-title">Filter by Character Type:</div>
+                <div class="filter-options">
+                    <div class="filter-option selected" data-filter="all">All</div>
+                    <div class="filter-option" data-filter="hero">Heroes</div>
+                    <div class="filter-option" data-filter="villain">Villains</div>
+                    <div class="filter-option" data-filter="princess">Princesses</div>
+                    <div class="filter-option" data-filter="animal">Animals</div>
+                </div>
+            </div>
+
+            <div class="api-info" id="apiInfo">
+                <i class="fas fa-info-circle"></i> Loading characters from Disney API...
+            </div>
+            
+            <div class="buttons">
+                <button id="findMatchBtn">Find My Disney Match</button>
+                <button id="resetBtn">Reset</button>
+            </div>
+        </div>
+
+        <div class="result-container" id="resultContainer">
+            <!-- Results will be displayed here -->
+        </div>
+    </div>
+
+    <footer>
+        <p>Made with <i class="fas fa-heart" style="color: #e74c3c;"></i> using the Disney API | © 2023 Disney Personality Match</p>
+    </footer>
+
+    <script src="j.js"></script>
+   
+</body>
+</html>
